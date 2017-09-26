@@ -1,3 +1,4 @@
+# Challenge #291 [Easy] Goldilocks' Bear Necessities
 Once upon a time, there lived an adventurous little girl called Goldilocks. She explored the world with abandon, having a lot of fun. During her latest foray into the woods, she found another bear home -- though this one is home to many more bears. Having learned from her previous experiences, Goldilocks knows that trial and error is not an efficient way of finding the right chair and porridge to help herself to.
 The task falls to you: given descriptions of Goldilocks' needs and of the available porridge/chairs at the dinner table, tell Goldilocks which chair to sit in so the chair does not break, and the porridge is at an edible temperature.
 
