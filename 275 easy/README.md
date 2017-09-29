@@ -14,15 +14,22 @@ Write a function that, given two strings, one an element name and one a proposed
 The symbol will have exactly two letters. Both element name and symbol will contain only the letters a-z. Both the element name and the symbol will have their first letter capitalized, with the rest lowercase. (If you find that too challenging, it's okay to instead assume that both will be completely lowercase.)
 
 ## Examples
-
+```
 Spenglerium, Ee -> true
 Zeddemorium, Zr -> true
 Venkmine, Kn -> true
 Stantzon, Zt -> false
 Melintzum, Nn -> false
 Tullium, Ty -> false
+```
 
 ## Optional bonus challenges
 
-Given an element name, find the valid symbol for that name that's first in alphabetical order. E.g. Gozerium -> Ei, Slimyrine -> Ie.
-Given an element name, find the number of distinct valid symbols for that name. E.g. Zuulon -> 11.
+1. Given an element name, find the valid symbol for that name that's first in alphabetical order. E.g. 
+```
+Gozerium -> Ei, Slimyrine -> Ie.
+```
+2. Given an element name, find the number of distinct valid symbols for that name. E.g. 
+```
+Zuulon -> 11.
+```
