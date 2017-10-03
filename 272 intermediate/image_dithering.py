@@ -11,13 +11,13 @@ def dither(px, width, height):
             delta = old_px - new_px
             # 2D Error spreading happens here:
             if i < (width - 1):         # right is not out of bounds
-                px[i+1, j] += delta // 16 * 7
+                px[i+1, j] += delta * 7 // 16
             if j < (height - 1):        # down is not out of bounds
-                px[i, j+1] += delta // 16 * 5
+                px[i, j+1] += delta * 5 // 16
                 if i < (width - 1):     # down and right is not out of bounds
                     px[i+1, j+1] += delta // 16
                 if i > 0:               # down and left is not out of bounds
-                    px[i-1, j+1] += delta // 16 * 3
+                    px[i-1, j+1] += delta * 3 // 16
 
 
 image = Image.open('dither.png', 'r').convert('L')
